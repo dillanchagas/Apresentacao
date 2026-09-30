@@ -1,5 +1,3 @@
-# html-css
-# html-css
 # Jonathan — Portfólio Profissional
 
 ![Portfolio Preview](./assets/preview.png)
