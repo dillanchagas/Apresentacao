@@ -13,7 +13,7 @@ O projeto foi pensado como uma experiência de apresentação profissional, func
 ## 🌐 Demonstração
 
 🔗 **Acessar o portfólio:**  
-https://dillanchagas.github.io/Apresentacao/
+https://github.com/dillanchagas/Apresentacao
 
 ---
 
