@@ -111,7 +111,7 @@ p.sobre{
 }
 
 h1.projetos{
-    padding: 50px 580px 50px;
+    padding: 50px 590px 50px;
 }
 
 div{
@@ -129,7 +129,7 @@ div:hover{
 }
 
 div.projeto1{
-    margin-left: 150px;
+    margin-left: 180px;
 
 }
 
@@ -145,5 +145,5 @@ div.projeto3{
 footer{
     color: #F5F7FA;
     background-color: #132735;
-    padding: 10px 10px 10px 580px;
+    padding: 10px 10px 10px 600px;
 }
