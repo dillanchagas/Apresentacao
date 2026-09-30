@@ -82,7 +82,10 @@ p.apresentacao {
 
 .foto {
     display: block;
-    margin: 20px auto;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     max-width: 150px;
     width: 100%;
     height: auto;
