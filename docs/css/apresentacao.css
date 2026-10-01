@@ -17,6 +17,7 @@ header {
     color: #F5F7FA;
     text-align: left;
     padding: 0px 0;
+
 }
 
 p.subtitulo {
@@ -82,7 +83,7 @@ p.apresentacao {
 
 .foto {
      display: block;
-    margin: 0 0 0 1200px;
+    margin: 0 0 0 auto;
     max-width: 180px;
     width: 100%;
     height: auto;
@@ -113,6 +114,7 @@ p.sobre {
   margin: auto;
   font-size: 1.5em;
 }
+
 
 h1.projetos {
     padding: 50px 580px 50px;
@@ -203,5 +205,14 @@ div.projeto3 p {
 footer {
     color: #F5F7FA;
     background-color: #132735;
-    padding: 10px 10px 10px 580px;
+    margin: 20px 0px 0px 0px;
+    padding-top: 10px;
+    
+}
+
+footer p {
+    text-align: center;
+    font-size: 1em;
+    margin:0px;
+    padding-bottom: 10px;
 }
