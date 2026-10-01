@@ -119,32 +119,85 @@ h1.projetos {
 }
 
 div {
-    display: inline-block;
+    display: block;
     border: 2px solid rgba(0, 0, 0, 0.101);
     border-radius: 10px;
     background-color: #839ce1;
-    min-width: 300px;
-    max-width: 200px;
+    max-width: 850px;
     max-height: 350px;
-    min-height: 450px;
+    margin: 20px auto;
+    
 }
 
 div:hover {
     background-color: #080b121e;
     zoom: 1.03;
     transition: 0.6s;
+    p {
+        color: #f5f6f8;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
 }
 
 div.projeto1 {
-    margin-left: 150px;
+    margin: 0 auto 30px auto;
+    padding: 50px;
+}
+
+div.projeto1 h2 {
+    margin: 10px auto;
+    font-size: 2em;
+    display: inline-block;
+    margin: 0 auto;
+    padding:0px 0px 10px 220px;
+}
+
+
+div.projeto1 p {
+    padding: 10px 0px 10px 220px;
+    font-size: 1em;
+    display: block;
+    margin: 0 auto;
 }
 
 div.projeto2 {
-    margin-left: 100px;
+    margin: 0 auto 30px auto;
+    padding: 50px;
+}
+
+div.projeto2 h2 {
+    margin:  auto;
+    font-size: 2em;
+    display: inline-block;
+    margin: 0 auto;
+    padding:10px 0px 10px 220px;
+}
+
+div.projeto2 p {
+    padding: 10px 0px 10px 220px;
+    font-size: 1em;
+    display: block;
+    margin: 0 auto;
 }
 
 div.projeto3 {
-    margin-left: 100px;
+   margin: 0 auto 30px auto;
+    padding: 50px;
+}
+
+div.projeto3 h2 {
+    margin:  auto;
+    font-size: 2em;
+    display: inline-block;
+    margin: 0 auto;
+    padding:10px 0px 10px 220px;
+}
+
+div.projeto3 p {
+    padding: 10px 0px 10px 220px;
+    font-size: 1em;
+    display: block;
+    margin: 0 auto;
 }
 
 footer {
