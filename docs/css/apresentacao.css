@@ -231,7 +231,15 @@ h1.projetos {
     p,h2 {
         color: #F5F7FA;
     }
+    a {
+        color: #f0f1f2;
+        background-color: #000000;
+    }
 
+}
+
+.projeto1:hover{
+    background-image: linear-gradient(to bottom, #0d3296, #8f1093);
 }
 
 
@@ -267,6 +275,14 @@ h1.projetos {
     overflow-wrap: anywhere;
 }
 
+.projeto1 a,
+.projeto2 a, 
+.projeto3 a {
+    color: #0D1420;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #f5f7fa49;
+}
 
 footer {
     margin: 0;
