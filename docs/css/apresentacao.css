@@ -324,6 +324,88 @@ h1.projetos {
     background-color: #f5f7fa49;
 }
 
+.contato {
+     width: 100%;
+    max-width: 1000px;
+
+    margin: 0 auto 50px;
+    padding: 0;
+
+    background: none;
+
+    color: #F5F7FA;
+
+    font-size: clamp(2rem, 5vw, 3rem);
+    line-height: 1.2;
+
+    
+}
+
+.contato-texto {
+    max-width: 800px;
+
+    min-height: 0;
+
+    margin: 0 auto;
+
+    padding: 0;
+
+    padding-bottom: 30px;
+
+    color: #F5F7FA;
+
+    font-size: clamp(1rem, 2vw, 1.3rem);
+    line-height: 1.8;
+}
+
+.contato-lista {
+    max-width: 800px;
+
+
+    min-height: 0;
+
+    margin: 0 auto;
+
+    padding: 0;
+
+    color: #F5F7FA;
+
+    font-size: clamp(1rem, 2vw, 1.3rem);
+    line-height: 1.1;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.contato-lista li {
+
+    margin-bottom: 10px;
+
+    padding-bottom: 10px;
+
+    text-decoration: none;
+
+    display: inline-block;
+
+}
+
+.contato-lista a {
+   
+    color: #F5F7FA;
+    text-decoration: none;
+    font-size: 1.1rem;
+
+
+}
+
+.contato-lista a:hover {
+    color: #839ce1;
+    zoom: 1.03;
+    transition: 0.1s ease;
+}
+
 footer {
     margin: 0;
     padding: 20px;
