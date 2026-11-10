@@ -3,109 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="imagens/icons8-portfolio-64.png">
+    <meta name="theme-color" content="#03090d">
+    <link rel="icon" type="image/png" href="imagens/icons8-portfolio-64.png">
     <link rel="stylesheet" href="css/apresentacao.css">
-    <title>Jonathan Chagas</title>
+    <title>Jonathan Chagas | Portfólio</title>
 </head>
 <body>
-<header>
-    <nav>
-        <h1>Jonathan Chagas</h1>
+<header class="site-header">
+    <nav class="container" aria-label="Navegação principal">
+        <a class="brand" href="#inicio">J. Chagas</a>
         <ul>
-            <li><a href="#sobrem">Sobre</a></li>
+            <li><a href="#inicio">Início</a></li>
             <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#sobrem">Sobre</a></li>
             <li><a href="#Contato">Contato</a></li>
         </ul>
     </nav>
-    <h1>Olá, eu sou o Jonathan</h1>
 </header>
 
 <main>
-    <p class="subtitulo">Desenvolvedor / Criador de soluções digitais.</p>
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="container hero-content">
+            <h1 id="hero-title">Jonathan Chagas</h1>
+            <p class="hero-role">Desenvolvedor web <span>//</span> Criador de soluções digitais</p>
+            <p class="hero-invitation">Explore meu universo digital</p>
 
-    <p class="apresentacao">
-    Desenvolvo aplicações web modernas, sistemas personalizados e
-    experiências digitais focadas em funcionalidade,
-    performance e resultados.</p>
+            <div class="overview">
+                <section class="panel">
+                    <h2>Projetos em destaque</h2>
+                    <p>Explore meus trabalhos</p>
+                    <ul class="featured">
+                        <li><a href="#gta-vi">GTA VI</a></li>
+                        <li><a href="#agata">Agata Design 3D</a></li>
+                        <li><a href="#projetos">Ver todos os projetos</a></li>
+                    </ul>
+                </section>
 
-    <img src="imagens/foto-curriculo.jpeg"
-         alt="Foto de Jonathan Chagas"
-         class="foto">
+                <section class="panel">
+                    <h2>Tecnologias</h2>
+                    <ul class="tech-list">
+                        <li><span class="tech-icon html-icon" aria-hidden="true">5</span> HTML5</li>
+                        <li><span class="tech-icon css-icon" aria-hidden="true">3</span> CSS3</li>
+                        <li><span class="tech-icon git-icon" aria-hidden="true">◆</span> Git</li>
+                        <li><span class="tech-icon" aria-hidden="true">↔</span> Flexbox</li>
+                    </ul>
+                </section>
 
-    <section id="sobrem">
-        <article id="sobre">
-            <h2>Sobre Mim</h2>
-            <p class="sobre">
-            Após estudos e preparação inicio meus trabalhos como desenvolvedor web.
+                <section class="panel">
+                    <h2>Sobre mim</h2>
+                    <div class="profile">
+                        <p>Desenvolvo aplicações web modernas e experiências digitais focadas em funcionalidade, performance e resultados.</p>
+                        <img src="imagens/foto-curriculo.jpeg" alt="Foto de Jonathan Chagas">
+                    </div>
+                    <a class="text-link" href="#sobrem">Conheça meu perfil →</a>
+                </section>
+            </div>
+
+            <a class="button" href="#projetos">Ver projetos →</a>
+
+            <a class="hero-callout" href="#Contato">
+                <span>Entre em contato</span>
+                Vamos construir o futuro
+            </a>
+        </div>
+    </section>
+
+    <section class="container content-section" id="sobrem">
+        <h2 class="section-title">Sobre mim</h2>
+        <p>Após estudos e preparação inicio meus trabalhos como desenvolvedor web.
             Essa é uma área a qual eu sempre tive muita vontade e curiosidade de trabalhar
             pois é muito bom montar e ver um sistema funcionando e saber que trabalhei nisso.
-            Pretendo fazer desses estudos o meu trabalho e me vejo como um ótimo desenvolvedor em um futuro breve.
-            </p>
-        </article>
+            Pretendo fazer desses estudos o meu trabalho e me vejo como um ótimo desenvolvedor em um futuro breve.</p>
     </section>
 
-    <section id="projetos">
-        <h1 class="projetos">Projetos</h1>
-    
-
-    
-     <a href="https://dillanchagas.github.io/gta6/" target="_blank" class="projeto-card">
-        <div class="projeto-imagem">
-            <img src="imagens/Captura de ecrã 2026-10-07 101749.png" alt="Imagem do projeto GTA VI"> 
+    <section class="container content-section" id="projetos">
+        <h2 class="section-title">Projetos</h2>
+        <div class="project-grid">
+            <a class="panel project-card" id="gta-vi" href="https://dillanchagas.github.io/gta6/" target="_blank" rel="noopener noreferrer">
+                <img src="imagens/Captura de ecrã 2026-10-07 101749.png" alt="Imagem do projeto GTA VI" loading="lazy">
+                <h3>GTA VI</h3>
+                <p>Projeto desenvolvido em HTML5 e CSS3, inspirado no universo de Grand Theft Auto VI.
+                    Neste projeto pratiquei HTML semântico, responsividade, Flexbox, Media Queries,
+                    imagens de fundo e tipografia personalizada.</p>
+                <span class="text-link">Ver projeto →</span>
+            </a>
+            <a class="panel project-card" id="agata" href="https://dillanchagas.github.io/Site-Agata/" target="_blank" rel="noopener noreferrer">
+                <h3>Site de Vendas</h3>
+                <p>O Agata Design 3D é um projeto de loja online para venda de peças personalizadas através da impressão 3D.
+                    Desenvolvido com HTML5 e CSS3, o site aposta num design moderno, responsivo e intuitivo,
+                    proporcionando uma experiência de navegação simples e agradável.</p>
+                <span class="text-link">Ver projeto →</span>
+            </a>
+            <article class="panel project-card">
+                <h3>Exemplo de Projeto 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio esse inventore non minima fugiat.
+                    Repudiandae nostrum et beatae. Magnam eius odio magni error sequi mollitia sit, nisi culpa corrupti.</p>
+            </article>
         </div>
-
-        <div class="projeto1">
-            <h2>GTA VI
-        </h2>
-        
-     <p>
-            Projeto desenvolvido em HTML5 e CSS3, inspirado no universo
-            de Grand Theft Auto VI. Neste projeto pratiquei HTML semântico,
-            responsividade, Flexbox, Media Queries, imagens de fundo e
-            tipografia personalizada.
-        </p>
-         <span>Ver projeto →</span>
-    </div>
-    </a>
-    
-    <a href="https://dillanchagas.github.io/Site-Agata/" target="_blank" class="projeto-card">
-    <div class="projeto2">
-    <h2>Site de Vendas
-
-    </h2>
-    <p>
-        O Agata Design 3D é um projeto de loja online para venda de peças personalizadas através da impressão 3D.
-         Desenvolvido com HTML5 e CSS3, o site aposta num design moderno, responsivo e intuitivo, proporcionando uma
-         experiência de navegação simples e agradável.
-    </p>
-    </div>
-    </a>
-
-    <div class="projeto3">
-    <h2>Exemplo de Projeto 3
-    </h2>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Eaque optio esse inventore non minima fugiat.
-         Repudiandae nostrum et beatae. Magnam eius odio magni error sequi mollitia sit, nisi culpa corrupti.
-    </p>
-    </div>
     </section>
 
-    <section id="Contato">
-        <h1 class="contato">Contato</h1>
-        <p class="contato-texto">Entre em contato comigo para discutir oportunidades de colaboração,
-         projetos ou qualquer outra questão relacionada ao desenvolvimento web. Estou aberto a novas ideias e desafios!</p>
-        <ul class="contato-lista">
+    <section class="container content-section contact" id="Contato">
+        <h2 class="section-title">Contato</h2>
+        <p>Entre em contato comigo para discutir oportunidades de colaboração, projetos ou qualquer outra questão
+            relacionada ao desenvolvimento web. Estou aberto a novas ideias e desafios!</p>
+        <ul class="contact-links">
             <li><a href="mailto:dillanchagas@outlook.com.br">Email</a></li>
-            <li><a href="https://www.linkedin.com/in/jonathan-d-chagas/" target="_blank">Linkedin</a></li>
-            <li><a href="https://github.com/dillanchagas" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/jonathan-d-chagas/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li><a href="https://github.com/dillanchagas" target="_blank" rel="noopener noreferrer">GitHub</a></li>
         </ul>
     </section>
-
-    <footer>
-        <p>por: Jonathan Chagas 2026 &copy;</p>
-    </footer>
 </main>
 
+<footer class="site-footer">
+    <div class="container">
+        <a href="mailto:dillanchagas@outlook.com.br">✉ dillanchagas@outlook.com.br</a>
+        <p>© 2026 Jonathan Chagas</p>
+    </div>
+</footer>
 </body>
 </html>

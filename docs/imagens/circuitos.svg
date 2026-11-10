@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 760" fill="none">
+  <defs>
+    <linearGradient id="trace" x1="0" x2="645" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#36f9ff"/>
+      <stop offset=".45" stop-color="#27b9ce" stop-opacity=".65"/>
+      <stop offset="1" stop-color="#245b71" stop-opacity=".12"/>
+    </linearGradient>
+    <linearGradient id="grid" x1="0" x2="660" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#42a9c3" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#284a5c" stop-opacity=".05"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <g id="wall">
+      <path stroke="url(#grid)" d="M0 8 660 336M0 79l660 273M0 154l660 212M0 231l660 145M0 305l660 77M0 384h660M0 463l660-73M0 538l660-134M0 616l660-194M0 694l660-259M0 754l660-306M42 30v705M90 54v659M148 83v601M207 111v548M264 139v493M320 167v439M375 195v387M423 219v340M478 246v289M530 272v238M580 296v190"/>
+      <path stroke="#23738d" stroke-opacity=".32" d="M0 126H72l48 47h94l87 60h70l62 49h84M0 278h73l60 28h121l87 27h65l69 22h75M0 514h87l69-35h89l95-36h108l67-22h88M0 646h60l99-63h76l103-57h54l102-61h76M65 0v114l52 51v126l29 39v135l-23 39v256M194 0v190l35 31v336l-47 33v170M307 88v127l31 20v310l-31 20v107"/>
+      <path id="bright" d="M0 54 123 119v70l71 47 102 31 94 52M0 132l168 81 68 6 83 51 103 32M0 372h134l58 10h416M0 652l132-74 63-2 107-60 113-38M0 735l95-63 54-51v-57l103-60 111-31"/>
+      <use href="#bright" stroke="url(#trace)" stroke-width="8" opacity=".68" filter="url(#glow)"/>
+      <use href="#bright" stroke="url(#trace)" stroke-width="1.7"/>
+      <g fill="#82ffff">
+        <circle cx="123" cy="189" r="2.6"/>
+        <circle cx="192" cy="382" r="3"/>
+        <circle cx="195" cy="576" r="2.6"/>
+        <circle cx="236" cy="219" r="2"/>
+        <circle cx="95" cy="672" r="2"/>
+        <circle cx="302" cy="516" r="2"/>
+      </g>
+    </g>
+  </defs>
+  <use href="#wall"/>
+  <use href="#wall" transform="translate(1440) scale(-1 1)"/>
+</svg>
